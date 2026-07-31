@@ -1,0 +1,29 @@
+INFO: sUnitMass set in vpl.in, all bodies will use this unit.
+INFO: sUnitTime set in vpl.in, all bodies will use this unit.
+INFO: sUnitAngle set in vpl.in, all bodies will use this unit.
+INFO: sUnitLength set in vpl.in, all bodies will use this unit.
+INFO: sUnitTemp not set in file star.in, defaulting to Kelvin.
+INFO: sUnitTemp not set in file planet.in, defaulting to kelvin.
+INFO: dRotPeriod < 0 in file star.in, units assumed to be Days.
+INFO: dMass < 0 in file planet.in, units assumed to be Mearth.
+INFO: dOrbPeriod < 0 in file planet.in, units assumed to be Days.
+INFO: dMinSurfWaterMass < 0 in file planet.in, units assumed to be Terrestrial Oceans (TO).
+INFO: dEnvelopeMass < 0 in file planet.in, units assumed to be Mearth.
+INFO: dSatXUVTime < 0 in file star.in, units assumed to be Gyr.
+INFO: dJeansTime < 0 in file planet.in, units assumed to be Gyr.
+INFO: sOutFile not set, defaulting to system3.star.forward.
+INFO: sOutFile not set, defaulting to system3.planet.forward.
+INFO: sIntegrationMethod not set, defaulting to Runge-Kutta4.
+INFO: No rotational information set in file planet.in. Defaulting to dRotRate = 2*pi/day.
+INFO: dSurfWaterMass < dMinSurfWaterMass. No envelope evolution will be included.
+INFO: DeltaTime output for first step is defined to be 0 when bVarDt = 1.
+Input files read.
+INFO: Age set in one file, all bodies will have this age.
+All of star's modules verified.
+All of planet's modules verified.
+Input files verified.
+Log file written.
+planet's envelope removed after 597.594 million years. Switching to Sotin+2007 model for solid planet radius.
+Evolution completed.
+Log file updated.
+Simulation completed.

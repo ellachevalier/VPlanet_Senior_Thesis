@@ -1,0 +1,33 @@
+INFO: sUnitMass set in vpl.in, all bodies will use this unit.
+INFO: sUnitTime set in vpl.in, all bodies will use this unit.
+INFO: sUnitAngle set in vpl.in, all bodies will use this unit.
+INFO: sUnitLength set in vpl.in, all bodies will use this unit.
+INFO: sUnitTemp set in vpl.in, all bodies will use this unit.
+INFO: dRotPeriod < 0 in file primary.in, units assumed to be Days.
+INFO: dRotPeriod < 0 in file secondary.in, units assumed to be Days.
+INFO: dMass < 0 in file cbp.in, units assumed to be Mearth.
+INFO: dOrbPeriod < 0 in file cbp.in, units assumed to be Days.
+INFO: dMinSurfWaterMass < 0 in file cbp.in, units assumed to be Terrestrial Oceans (TO).
+INFO: dEnvelopeMass < 0 in file cbp.in, units assumed to be Mearth.
+INFO: dSatXUVTime < 0 in file primary.in, units assumed to be Gyr.
+INFO: dSatXUVTime < 0 in file secondary.in, units assumed to be Gyr.
+INFO: dJeansTime < 0 in file cbp.in, units assumed to be Gyr.
+INFO: sOutFile not set, defaulting to kepler16_2.primary.forward.
+INFO: sOutFile not set, defaulting to kepler16_2.secondary.forward.
+INFO: sOutFile not set, defaulting to kepler16_2.cbp.forward.
+INFO: sIntegrationMethod not set, defaulting to Runge-Kutta4.
+INFO: No rotational information set in file cbp.in. Defaulting to dRotRate = 2*pi/day.
+INFO: dSurfWaterMass < dMinSurfWaterMass. No envelope evolution will be included.
+INFO: DeltaTime output for first step is defined to be 0 when bVarDt = 1.
+HALT: cbp's dSemi: -0.000012 AU, Holman-Wiegert critial a: 0.282962 AU.
+Input files read.
+INFO: Age set in one file, all bodies will have this age.
+INFO: Radius of Gyration set for body 0, but this value will be computed from the grid.
+All of primary's modules verified.
+INFO: Radius of Gyration set for body 1, but this value will be computed from the grid.
+All of secondary's modules verified.
+All of cbp's modules verified.
+Input files verified.
+Log file written.
+Log file updated.
+Simulation completed.

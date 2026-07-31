@@ -1,0 +1,484 @@
+-------- Log file kepler16_2.log -------
+
+Executable: (null)
+Version: Unknown
+System Name: kepler16_2
+Primary Input File: vpl.in
+Body File #1: primary.in
+Body File #2: secondary.in
+Body File #3: cbp.in
+Allow files to be overwitten: Yes
+Mass Units: Grams
+Length Units: Meters
+Time Units: Seconds
+Angle Units: Radians
+
+------- FORMATTING -----
+Verbosity Level: 5
+Crossover Decade for Scientific Notation: 4
+Number of Digits After Decimal: 6
+Integration Method: Runge-Kutta4
+Direction: Forward
+Time Step: 3.155760e+07
+Stop Time: 3.155760e+16
+Output Interval: 3.155760e+12
+Use Variable Timestep: Yes
+dEta: 0.100000
+Minimum Value of ecc and obl: 1.000000e-10
+
+
+---- INITIAL SYSTEM PROPERTIES ----
+(Age) System Age [sec]: 3.155760e+13 
+(Time) Simulation Time [sec]: 0.000000 
+(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 1.385858e+44 
+(TotEnergy) Total System Energy [kg*m^2/sec^2]: -2.510939e+40 
+(PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -1.653118e+40 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 5.144608e+38 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: 0.000000 
+
+----- BODY: primary ----
+Active Modules: BINARY STELLAR
+Module Bit Sum: 1089
+Color: 000000
+(Mass) Mass [kg]: 6.982516e+29 
+(Radius) Radius [m]: 1.181070e+09 
+(RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.446934 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 1.414869e+43 
+(RotVel) Rotational Velocity [m/sec]: 8.588982e+04 
+(BodyType) Type of Body (0 == planet) []: 1.000000 
+(RotRate) Rotational Frequency [/sec]: 7.272205e-05 
+(RotPer) Rotational Period [sec]: 8.640000e+04 
+(Density) Average Density [kg/m^3]: 101.180442 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 8.637896e+10 
+(HZLimRecVenus) Recent Venus HZ Limit [m]: 9.559147e+10 
+(HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 1.264372e+11 
+(HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 1.264831e+11 
+(HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 2.373629e+11 
+(HZLimEarlyMars) Early Mars HZ Limit [m]: 2.588784e+11 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg/sec^3]: -1.000000 
+(Eccentricity) Orbital Eccentricity []: -1.000000 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: 0.000000 
+(MeanMotion) Orbital Mean Motion [/sec]: -1.000000 
+(OrbPeriod) Orbital Period [sec]: -1.000000 
+(SemiMajorAxis) Semi-major Axis [m]: -1.000000 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(COPP) Climate Obliquity Precession Parameter []: 0.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 0.000000 
+(ArgP) Body's argument of pericenter [rad]: 0.000000 
+(Inc) Body's Inclination [rad]: 0.000000 
+(LongA) Body's Longitude of ascending node [rad]: 0.000000 
+(LongP) Body's Longitude of pericenter [rad]: 0.000000 
+(LXUVTot) Total XUV Luminosity [kg/sec^3]: 7.782226e+22 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -3.133153e+39 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.000000 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 5.562685e-309 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 5.562685e-309 
+----- STELLAR PARAMETERS (primary)------
+(Luminosity) Luminosity [kg*m^2/sec^3]: 1.556445e+26 
+(LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 7.782226e+22 
+(Temperature) Effective Temperature [K]: 3535.411532 
+(LXUVFrac) Fraction of luminosity in XUV []: 0.000500 
+(RossbyNumber) Rossby Number []: 0.019459 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: -5.432304e-10 
+(WindTorque) Stellar Wind Torque []: 5.386811e+27 
+----- BINARY PARAMETERS (primary)------
+(FreeEcc) CBP's Free Eccentricity in BINARY []: -1.000000 
+(FreeInc) CBP's Free Inclination in BINARY [rad]: -1.000000 
+(LL13N0) CBP Mean Motion in BINARY [sec]: -1.000000 
+(LL13K0) Leung+Lee 2013 Radial epicyclic frequency [sec]: -1.000000 
+(LL13V0) CBP vertical epicyclic frequency in BINARY [sec]: -1.000000 
+(CBPR) CBP's Orbital Radius in BINARY [m]: 0.000000 
+(CBPZ) CBP's Orbital Cylindrical Height Out of the Orbital Plane in BINARY [m]: 0.000000 
+(CBPPhi) CBP Orbital Azimuthal Angle in BINARY [rad]: -1.000000 
+(CBPRDot) CBP's Radial Orbital Velocity in BINARY [m/sec]: 0.000000 
+(CBPZDot) CBP's Z Orbital Velocity in BINARY [m/sec]: 0.000000 
+(CBPPhiDot) CBP's Phi Angular Orbital Velocity in BINARY [/sec]: 0.000000 
+(R0) CBP's Orbital Guiding Center Radius in BINARY [m]: 0.000000 
+(CBPInsol) CBP's binary Orbit-Averaged Insolation in BINARY [F/F_Earth]: -1.000000 
+(BinPriR) Radial position of binary primary star for module BINARY [m]: 1.269121e+09 
+(BinPriPhi) Binary primary star azimuthal angle in BINARY [rad]: 1.482794 
+(BinSecR) Radial position of binary secondary star for module BINARY [m]: 2.202768e+09 
+(BinSecPhi) Binary secondary star azimuthal angle in BINARY [rad]: 4.624386 
+Output Order:
+Grid Output Order:
+
+----- BODY: secondary ----
+Active Modules: BINARY STELLAR
+Module Bit Sum: 1089
+Color: 000000
+(Mass) Mass [kg]: 4.022963e+29 
+(Radius) Radius [m]: 1.047251e+09 
+(RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.443184 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 6.302039e+42 
+(RotVel) Rotational Velocity [m/sec]: 7.615825e+04 
+(BodyType) Type of Body (0 == planet) []: 1.000000 
+(RotRate) Rotational Frequency [/sec]: 7.272205e-05 
+(RotPer) Rotational Period [sec]: 8.640000e+04 
+(Density) Average Density [kg/m^3]: 83.618995 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 8.751321e+10 
+(HZLimRecVenus) Recent Venus HZ Limit [m]: 9.559147e+10 
+(HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 1.264372e+11 
+(HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 1.264831e+11 
+(HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 2.373629e+11 
+(HZLimEarlyMars) Early Mars HZ Limit [m]: 2.588784e+11 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg/sec^3]: 1.401777e+06 
+(Eccentricity) Orbital Eccentricity []: 0.160480 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -3.133120e+39 
+(MeanMotion) Orbital Mean Motion [/sec]: 5.236891e-05 
+(OrbPeriod) Orbital Period [sec]: 1.199793e+05 
+(SemiMajorAxis) Semi-major Axis [m]: 2.991957e+09 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(COPP) Climate Obliquity Precession Parameter []: -0.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 1.181049e+44 
+(ArgP) Body's argument of pericenter [rad]: 0.000000 
+(Inc) Body's Inclination [rad]: 0.000000 
+(LongA) Body's Longitude of ascending node [rad]: 0.000000 
+(LongP) Body's Longitude of pericenter [rad]: 4.598768 
+(LXUVTot) Total XUV Luminosity [kg/sec^3]: 4.255533e+22 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -3.133153e+39 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -6.266240e+39 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 5.562685e-309 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 5.562685e-309 
+----- STELLAR PARAMETERS (secondary)------
+(Luminosity) Luminosity [kg*m^2/sec^3]: 8.511065e+25 
+(LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 4.255533e+22 
+(Temperature) Effective Temperature [K]: 3229.320537 
+(LXUVFrac) Fraction of luminosity in XUV []: 0.000500 
+(RossbyNumber) Rossby Number []: 0.016635 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: -6.759372e-10 
+(WindTorque) Stellar Wind Torque []: 2.816450e+27 
+----- BINARY PARAMETERS (secondary)------
+(FreeEcc) CBP's Free Eccentricity in BINARY []: -1.000000 
+(FreeInc) CBP's Free Inclination in BINARY [rad]: -1.000000 
+(LL13N0) CBP Mean Motion in BINARY [sec]: -1.000000 
+(LL13K0) Leung+Lee 2013 Radial epicyclic frequency [sec]: -1.000000 
+(LL13V0) CBP vertical epicyclic frequency in BINARY [sec]: -1.000000 
+(CBPR) CBP's Orbital Radius in BINARY [m]: 0.000000 
+(CBPZ) CBP's Orbital Cylindrical Height Out of the Orbital Plane in BINARY [m]: 0.000000 
+(CBPPhi) CBP Orbital Azimuthal Angle in BINARY [rad]: -1.000000 
+(CBPRDot) CBP's Radial Orbital Velocity in BINARY [m/sec]: 0.000000 
+(CBPZDot) CBP's Z Orbital Velocity in BINARY [m/sec]: 0.000000 
+(CBPPhiDot) CBP's Phi Angular Orbital Velocity in BINARY [/sec]: 0.000000 
+(R0) CBP's Orbital Guiding Center Radius in BINARY [m]: 0.000000 
+(CBPInsol) CBP's binary Orbit-Averaged Insolation in BINARY [F/F_Earth]: -1.000000 
+(BinPriR) Radial position of binary primary star for module BINARY [m]: 1.269121e+09 
+(BinPriPhi) Binary primary star azimuthal angle in BINARY [rad]: 1.482794 
+(BinSecR) Radial position of binary secondary star for module BINARY [m]: 2.202768e+09 
+(BinSecPhi) Binary secondary star azimuthal angle in BINARY [rad]: 4.624386 
+Output Order:
+Grid Output Order:
+
+----- BODY: cbp ----
+Active Modules: AtmEsc BINARY
+Module Bit Sum: 1033
+Color: 000000
+(Mass) Mass [Mearth]: 3.766727 
+(Radius) Radius [m]: 5.312088e+07 
+(RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.400000 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 7.386084e+35 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(Density) Average Density [kg/m^3]: 35.827211 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 8.643431e+10 
+(HZLimRecVenus) Recent Venus HZ Limit [m]: 9.559147e+10 
+(HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 1.264372e+11 
+(HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 1.264831e+11 
+(HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 2.373629e+11 
+(HZLimEarlyMars) Early Mars HZ Limit [m]: 2.588784e+11 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg/sec^3]: 3.176863e+04 
+(Eccentricity) Orbital Eccentricity []: 0.035782 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -3.357754e+34 
+(MeanMotion) Orbital Mean Motion [/sec]: 2.221639e-06 
+(OrbPeriod) Orbital Period [sec]: 2.829545e+06 
+(SemiMajorAxis) Semi-major Axis [m]: 2.460549e+10 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(COPP) Climate Obliquity Precession Parameter []: -0.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 3.022300e+40 
+(ArgP) Body's argument of pericenter [rad]: 0.238798 
+(Inc) Body's Inclination [rad]: 0.029971 
+(LongA) Body's Longitude of ascending node [rad]: 4.887430 
+(LongP) Body's Longitude of pericenter [rad]: 5.126227 
+(LXUVTot) Total XUV Luminosity [kg/sec^3]: -1.000000 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -3.133153e+39 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -6.715509e+34 
+----- ATMESC PARAMETERS (cbp)------
+(SurfWaterMass) Surface water mass [kg]: 0.000000 
+(EnvelopeMass) Envelope mass [Mearth]: 0.376673 
+(OxygenMass) Oxygen mass in the atmosphere [kg]: 0.000000 
+(RGLimit) Runaway greenhouse semi-major axis [m]: 9.565122e+10 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.000000 
+(EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.000000 
+(PlanetRadius) Planet radius [Rearth]: 8.328638 
+(OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.000000 
+(RadXUV) XUV radius separating hydro. dyn. escape and equilibrium [m]: -1.000000 
+(RadSolid) Radius to the solid surface [m]: -1.000000 
+(PresXUV) Pressure at base of thermosphere [(null)]: 5.000000 
+(ScaleHeight) Scale height in Lehmer & Catling (2016) model [m]: -1.000000 
+(ThermTemp) Isothermal atmospheric temperature [K]: 400.000000 
+(AtmGasConst) Atmospheric gas constant [(null)]: 4124.000000 
+(PresSurf) Surface pressure due to atmosphere [Pa]: -1.000000 
+(DEnvMassDt) Envelope Mass Loss Rate [kg/s]: -4.985316e+08 
+(FXUV) XUV flux [W/m^2]: 15.884314 
+(AtmXAbsEffH2O) XUV atmospheric escape efficiency for H2O []: 0.300000 
+(RocheRadius) Roche Lobe Radius [m]: 5.428586e+08 
+(BondiRadius) Bondi Radius [m]: 1.393235e+08 
+(HEscapeRegime) Integer flag for H envelope escape regime []: 3.000000 
+(RRCriticalFlux) Critical XUV Flux that separates RR and energy-limited escape [W/m^2]: 2.967747 
+(CrossoverMass) Crossover mass, defines oxygen is escaping if mc > mo [kg]: 0.000000 
+(WaterEscapeRegime) What water escape regime the code is currently in []: 8.000000 
+(FXUVCRITDRAG) Critical Drag XUV flux [W/m^2]: 0.006541 
+(HREFFLUX) The Hydrogen Reference Flux (m^-2 s^-1) [m^-2 s^-1]: 2.538306e+19 
+(XO2) Molecular oxygen mixing ratio in atmosphere []: 0.000000 
+(XH2O) Water mixing ratio in upper atmosphere []: 0.000000 
+(HDiffFlux) The Hydrogen Diffusion Flux (m^-2 s^-1) [m^-2 s^-1]: 1.030279e+16 
+(HRefODragMod) Multiply by H ref flux to get flux with drag []: 1.000000 
+(KTide) Mass loss enhancement due to stellar gravity []: 1.000000 
+(RGDuration) Runaway Greenhouse Duration [years]: 0.00000e+00
+----- BINARY PARAMETERS (cbp)------
+(FreeEcc) CBP's Free Eccentricity in BINARY []: 0.030000 
+(FreeInc) CBP's Free Inclination in BINARY [rad]: 0.029815 
+(LL13N0) CBP Mean Motion in BINARY [sec]: 2.224508e-06 
+(LL13K0) Leung+Lee 2013 Radial epicyclic frequency [sec]: 2.218742e-06 
+(LL13V0) CBP vertical epicyclic frequency in BINARY [sec]: 2.230259e-06 
+(CBPR) CBP's Orbital Radius in BINARY [m]: 2.528558e+10 
+(CBPZ) CBP's Orbital Cylindrical Height Out of the Orbital Plane in BINARY [m]: -5.901208e+08 
+(CBPPhi) CBP Orbital Azimuthal Angle in BINARY [rad]: 2.638041 
+(CBPRDot) CBP's Radial Orbital Velocity in BINARY [m/sec]: -1212.565450 
+(CBPZDot) CBP's Z Orbital Velocity in BINARY [m/sec]: -971.159509 
+(CBPPhiDot) CBP's Phi Angular Orbital Velocity in BINARY [/sec]: 2.100429e-06 
+(R0) CBP's Orbital Guiding Center Radius in BINARY [m]: 2.459754e+10 
+(CBPInsol) CBP's binary Orbit-Averaged Insolation in BINARY [F/F_Earth]: 21.931237 
+(BinPriR) Radial position of binary primary star for module BINARY [m]: 1.269121e+09 
+(BinPriPhi) Binary primary star azimuthal angle in BINARY [rad]: 1.482794 
+(BinSecR) Radial position of binary secondary star for module BINARY [m]: 2.202768e+09 
+(BinSecPhi) Binary secondary star azimuthal angle in BINARY [rad]: 4.624386 
+Output Order: [year] [Mearth] [Mearth] [Rearth]
+Grid Output Order:
+
+
+
+---- FINAL SYSTEM PROPERTIES ----
+(Age) System Age [sec]: 3.158916e+16 
+(Time) Simulation Time [sec]: 3.155760e+16 
+(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 1.385082e+44 
+(TotEnergy) Total System Energy [kg*m^2/sec^2]: -2.513571e+40 
+(PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -8.464099e+40 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 2.175625e+38 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: 1.577880e+12 
+
+----- BODY: primary ----
+Active Modules: BINARY STELLAR
+Module Bit Sum: 1089
+Color: 000000
+(Mass) Mass [kg]: 6.982516e+29 
+(Radius) Radius [m]: 2.306741e+08 
+(RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.455771 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 1.832559e+42 
+(RotVel) Rotational Velocity [m/sec]: 5.477152e+04 
+(BodyType) Type of Body (0 == planet) []: 1.000000 
+(RotRate) Rotational Frequency [/sec]: 0.000237 
+(RotPer) Rotational Period [sec]: 2.646207e+04 
+(Density) Average Density [kg/m^3]: 1.358085e+04 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 1.622915e+10 
+(HZLimRecVenus) Recent Venus HZ Limit [m]: 1.673290e+10 
+(HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 2.211954e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 2.214035e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 4.165976e+10 
+(HZLimEarlyMars) Early Mars HZ Limit [m]: 4.543558e+10 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg/sec^3]: -1.000000 
+(Eccentricity) Orbital Eccentricity []: -1.000000 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: 0.000000 
+(MeanMotion) Orbital Mean Motion [/sec]: -1.000000 
+(OrbPeriod) Orbital Period [sec]: -1.000000 
+(SemiMajorAxis) Semi-major Axis [m]: -1.000000 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(COPP) Climate Obliquity Precession Parameter []: 0.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 0.000000 
+(ArgP) Body's argument of pericenter [rad]: 0.000000 
+(Inc) Body's Inclination [rad]: 0.000000 
+(LongA) Body's Longitude of ascending node [rad]: 0.000000 
+(LongP) Body's Longitude of pericenter [rad]: 0.000000 
+(LXUVTot) Total XUV Luminosity [kg/sec^3]: 1.615644e+20 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -3.133153e+39 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.000000 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 6.838384e+40 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 1.226598e+43 
+----- STELLAR PARAMETERS (primary)------
+(Luminosity) Luminosity [kg*m^2/sec^3]: 5.494263e+24 
+(LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 1.615644e+20 
+(Temperature) Effective Temperature [K]: 3468.538685 
+(LXUVFrac) Fraction of luminosity in XUV []: 2.940601e-05 
+(RossbyNumber) Rossby Number []: 0.005759 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: 1.617254e-12 
+(WindTorque) Stellar Wind Torque []: 1.112919e+26 
+----- BINARY PARAMETERS (primary)------
+(FreeEcc) CBP's Free Eccentricity in BINARY []: -1.000000 
+(FreeInc) CBP's Free Inclination in BINARY [rad]: -1.000000 
+(LL13N0) CBP Mean Motion in BINARY [sec]: -1.000000 
+(LL13K0) Leung+Lee 2013 Radial epicyclic frequency [sec]: -1.000000 
+(LL13V0) CBP vertical epicyclic frequency in BINARY [sec]: -1.000000 
+(CBPR) CBP's Orbital Radius in BINARY [m]: 0.000000 
+(CBPZ) CBP's Orbital Cylindrical Height Out of the Orbital Plane in BINARY [m]: 0.000000 
+(CBPPhi) CBP Orbital Azimuthal Angle in BINARY [rad]: -1.000000 
+(CBPRDot) CBP's Radial Orbital Velocity in BINARY [m/sec]: 0.000000 
+(CBPZDot) CBP's Z Orbital Velocity in BINARY [m/sec]: 0.000000 
+(CBPPhiDot) CBP's Phi Angular Orbital Velocity in BINARY [/sec]: 0.000000 
+(R0) CBP's Orbital Guiding Center Radius in BINARY [m]: 0.000000 
+(CBPInsol) CBP's binary Orbit-Averaged Insolation in BINARY [F/F_Earth]: -1.000000 
+(BinPriR) Radial position of binary primary star for module BINARY [m]: 1.211616e+09 
+(BinPriPhi) Binary primary star azimuthal angle in BINARY [rad]: 0.736516 
+(BinSecR) Radial position of binary secondary star for module BINARY [m]: 2.102959e+09 
+(BinSecPhi) Binary secondary star azimuthal angle in BINARY [rad]: 3.878108 
+Output Order:
+Grid Output Order:
+
+----- BODY: secondary ----
+Active Modules: BINARY STELLAR
+Module Bit Sum: 1089
+Color: 000000
+(Mass) Mass [kg]: 4.022963e+29 
+(Radius) Radius [m]: 1.517827e+08 
+(RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.460165 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 1.113688e+42 
+(RotVel) Rotational Velocity [m/sec]: 8.613280e+04 
+(BodyType) Type of Body (0 == planet) []: 1.000000 
+(RotRate) Rotational Frequency [/sec]: 0.000567 
+(RotPer) Rotational Period [sec]: 1.107219e+04 
+(Density) Average Density [kg/m^3]: 2.746570e+04 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 1.644226e+10 
+(HZLimRecVenus) Recent Venus HZ Limit [m]: 1.673290e+10 
+(HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 2.211954e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 2.214035e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 4.165976e+10 
+(HZLimEarlyMars) Early Mars HZ Limit [m]: 4.543558e+10 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg/sec^3]: 4.948282e+04 
+(Eccentricity) Orbital Eccentricity []: 0.160480 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -3.133120e+39 
+(MeanMotion) Orbital Mean Motion [/sec]: 5.236891e-05 
+(OrbPeriod) Orbital Period [sec]: 1.199793e+05 
+(SemiMajorAxis) Semi-major Axis [m]: 2.991957e+09 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(COPP) Climate Obliquity Precession Parameter []: -0.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 1.181049e+44 
+(ArgP) Body's argument of pericenter [rad]: 0.000000 
+(Inc) Body's Inclination [rad]: 0.000000 
+(LongA) Body's Longitude of ascending node [rad]: 0.000000 
+(LongP) Body's Longitude of pericenter [rad]: 4.598768 
+(LXUVTot) Total XUV Luminosity [kg/sec^3]: 5.471549e+19 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -3.133153e+39 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -6.266240e+39 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 3.642080e+40 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 5.160952e+42 
+----- STELLAR PARAMETERS (secondary)------
+(Luminosity) Luminosity [kg*m^2/sec^3]: 1.860691e+24 
+(LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 5.471549e+19 
+(Temperature) Effective Temperature [K]: 3263.624921 
+(LXUVFrac) Fraction of luminosity in XUV []: 2.940601e-05 
+(RossbyNumber) Rossby Number []: 0.002170 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: 5.483805e-13 
+(WindTorque) Stellar Wind Torque []: 5.515866e+25 
+----- BINARY PARAMETERS (secondary)------
+(FreeEcc) CBP's Free Eccentricity in BINARY []: -1.000000 
+(FreeInc) CBP's Free Inclination in BINARY [rad]: -1.000000 
+(LL13N0) CBP Mean Motion in BINARY [sec]: -1.000000 
+(LL13K0) Leung+Lee 2013 Radial epicyclic frequency [sec]: -1.000000 
+(LL13V0) CBP vertical epicyclic frequency in BINARY [sec]: -1.000000 
+(CBPR) CBP's Orbital Radius in BINARY [m]: 0.000000 
+(CBPZ) CBP's Orbital Cylindrical Height Out of the Orbital Plane in BINARY [m]: 0.000000 
+(CBPPhi) CBP Orbital Azimuthal Angle in BINARY [rad]: -1.000000 
+(CBPRDot) CBP's Radial Orbital Velocity in BINARY [m/sec]: 0.000000 
+(CBPZDot) CBP's Z Orbital Velocity in BINARY [m/sec]: 0.000000 
+(CBPPhiDot) CBP's Phi Angular Orbital Velocity in BINARY [/sec]: 0.000000 
+(R0) CBP's Orbital Guiding Center Radius in BINARY [m]: 0.000000 
+(CBPInsol) CBP's binary Orbit-Averaged Insolation in BINARY [F/F_Earth]: -1.000000 
+(BinPriR) Radial position of binary primary star for module BINARY [m]: 1.211616e+09 
+(BinPriPhi) Binary primary star azimuthal angle in BINARY [rad]: 0.736516 
+(BinSecR) Radial position of binary secondary star for module BINARY [m]: 2.102959e+09 
+(BinSecPhi) Binary secondary star azimuthal angle in BINARY [rad]: 3.878108 
+Output Order:
+Grid Output Order:
+
+----- BODY: cbp ----
+Active Modules: AtmEsc BINARY
+Module Bit Sum: 1033
+Color: 000000
+(Mass) Mass [Mearth]: 3.750018 
+(Radius) Radius [m]: 2.323266e+07 
+(RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.400000 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 1.406535e+35 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(Density) Average Density [kg/m^3]: 426.364733 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 1.623398e+10 
+(HZLimRecVenus) Recent Venus HZ Limit [m]: 1.673290e+10 
+(HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 2.211954e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 2.214035e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 4.165976e+10 
+(HZLimEarlyMars) Early Mars HZ Limit [m]: 4.543558e+10 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg/sec^3]: 962.418714 
+(Eccentricity) Orbital Eccentricity []: 0.024398 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -3.339708e+34 
+(MeanMotion) Orbital Mean Motion [/sec]: 2.221639e-06 
+(OrbPeriod) Orbital Period [sec]: 2.833552e+06 
+(SemiMajorAxis) Semi-major Axis [m]: 2.462871e+10 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(COPP) Climate Obliquity Precession Parameter []: 0.000000 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 3.011344e+40 
+(ArgP) Body's argument of pericenter [rad]: 0.339919 
+(Inc) Body's Inclination [rad]: 0.030618 
+(LongA) Body's Longitude of ascending node [rad]: 0.170228 
+(LongP) Body's Longitude of pericenter [rad]: 0.510147 
+(LXUVTot) Total XUV Luminosity [kg/sec^3]: -1.000000 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -3.133153e+39 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -6.679415e+34 
+----- ATMESC PARAMETERS (cbp)------
+(SurfWaterMass) Surface water mass [kg]: 0.000000 
+(EnvelopeMass) Envelope mass [Mearth]: 0.359963 
+(OxygenMass) Oxygen mass in the atmosphere [kg]: 0.000000 
+(RGLimit) Runaway greenhouse semi-major axis [m]: 1.799080e+10 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.000000 
+(EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.000000 
+(PlanetRadius) Planet radius [Rearth]: 3.642567 
+(OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.000000 
+(RadXUV) XUV radius separating hydro. dyn. escape and equilibrium [m]: -1.000000 
+(RadSolid) Radius to the solid surface [m]: -1.000000 
+(PresXUV) Pressure at base of thermosphere [(null)]: 5.000000 
+(ScaleHeight) Scale height in Lehmer & Catling (2016) model [m]: -1.000000 
+(ThermTemp) Isothermal atmospheric temperature [K]: 400.000000 
+(AtmGasConst) Atmospheric gas constant [(null)]: 4124.000000 
+(PresSurf) Surface pressure due to atmosphere [Pa]: -1.000000 
+(DEnvMassDt) Envelope Mass Loss Rate [kg/s]: -7.501759e+04 
+(FXUV) XUV flux [W/m^2]: 0.028301 
+(AtmXAbsEffH2O) XUV atmospheric escape efficiency for H2O []: 0.300000 
+(RocheRadius) Roche Lobe Radius [m]: 5.425662e+08 
+(BondiRadius) Bondi Radius [m]: 3.197572e+08 
+(HEscapeRegime) Integer flag for H envelope escape regime []: 3.000000 
+(RRCriticalFlux) Critical XUV Flux that separates RR and energy-limited escape [W/m^2]: 35.161248 
+(CrossoverMass) Crossover mass, defines oxygen is escaping if mc > mo [kg]: 0.000000 
+(WaterEscapeRegime) What water escape regime the code is currently in []: 8.000000 
+(FXUVCRITDRAG) Critical Drag XUV flux [W/m^2]: 0.077502 
+(HREFFLUX) The Hydrogen Reference Flux (m^-2 s^-1) [m^-2 s^-1]: 1.986736e+16 
+(XO2) Molecular oxygen mixing ratio in atmosphere []: 0.000000 
+(XH2O) Water mixing ratio in upper atmosphere []: 0.000000 
+(HDiffFlux) The Hydrogen Diffusion Flux (m^-2 s^-1) [m^-2 s^-1]: 5.362369e+16 
+(HRefODragMod) Multiply by H ref flux to get flux with drag []: 1.000000 
+(KTide) Mass loss enhancement due to stellar gravity []: 1.000000 
+(RGDuration) Runaway Greenhouse Duration [years]: 8.57995e+07
+----- BINARY PARAMETERS (cbp)------
+(FreeEcc) CBP's Free Eccentricity in BINARY []: 0.030000 
+(FreeInc) CBP's Free Inclination in BINARY [rad]: 0.029815 
+(LL13N0) CBP Mean Motion in BINARY [sec]: 2.224508e-06 
+(LL13K0) Leung+Lee 2013 Radial epicyclic frequency [sec]: 2.218742e-06 
+(LL13V0) CBP vertical epicyclic frequency in BINARY [sec]: 2.230259e-06 
+(CBPR) CBP's Orbital Radius in BINARY [m]: 2.515128e+10 
+(CBPZ) CBP's Orbital Cylindrical Height Out of the Orbital Plane in BINARY [m]: 1.252743e+08 
+(CBPPhi) CBP Orbital Azimuthal Angle in BINARY [rad]: 3.148469 
+(CBPRDot) CBP's Radial Orbital Velocity in BINARY [m/sec]: 650.942895 
+(CBPZDot) CBP's Z Orbital Velocity in BINARY [m/sec]: -1611.604166 
+(CBPPhiDot) CBP's Phi Angular Orbital Velocity in BINARY [/sec]: 2.124608e-06 
+(R0) CBP's Orbital Guiding Center Radius in BINARY [m]: 2.459754e+10 
+(CBPInsol) CBP's binary Orbit-Averaged Insolation in BINARY [F/F_Earth]: 0.679495 
+(BinPriR) Radial position of binary primary star for module BINARY [m]: 1.211616e+09 
+(BinPriPhi) Binary primary star azimuthal angle in BINARY [rad]: 0.736516 
+(BinSecR) Radial position of binary secondary star for module BINARY [m]: 2.102959e+09 
+(BinSecPhi) Binary secondary star azimuthal angle in BINARY [rad]: 3.878108 
+Output Order: [year] [Mearth] [Mearth] [Rearth]
+Grid Output Order:

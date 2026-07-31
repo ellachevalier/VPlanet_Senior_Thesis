@@ -1,0 +1,49 @@
+# CBP parameters for Kepler 16b from LL13
+# Parameters from Leung & Lee (2013)
+sName		cbp		      # Body's name
+saModules       binary atmesc                # Modules
+
+# Physical Properties
+iBodyType       0                     # Type of body 0 -> Planet
+dMass -4.13426143217737
+sPlanetRadiusModel lopez12      # Mass-radius model
+dRadGyra	         0.4	        # Radius of gyration; ang. mom. coeff.
+dAge               1.0e6        # Age [yr]
+
+
+# Binary Properties
+dFreeEcc        0.03                  # Free Eccentricity
+dFreeInc        1.7083                # Free Inclination [deg]
+bHaltHolmanUnstable   1               # End simulation if the CBP goes within the critical stability limit
+
+# Orbital Properties
+#dSemi            0.3                  # CBP semi-major axis [AU]
+dOrbPeriod -15.60026047918738
+dLongP          129.75                # CBP longitude of pericenter [deg]
+dCBPM0          358.85                # CBP mean anomaly [deg]
+dCBPPsi         270.0                 # CBP R, Phi oscillation offset phase angle [deg]
+dCBPZeta        90.0                  # CBP Z oscillation offset phase angle [deg]
+
+# ATMESC Parameters
+dXFrac                  1.0     # X-Ray/XUV absorption radius in planet radii
+dAtmXAbsEffH            0.1     # H X-ray/XUV absorption efficiency (epsilon)
+dSurfWaterMass   	      0.0     # Initial water mass, negative -> Earth oceans
+dEnvelopeMass -0.413426143217737
+bInstantO2Sink          0       # Is Oxygen instantly absorbed by the surface?
+bHaltSurfaceDesiccated  0 	    # Halt when dry?
+bHaltEnvelopeGone       0	      # Halt when H enevlope evaporated?
+sWaterLossModel         lbexact # Luger & Barnes (2015) model
+dMinSurfWaterMass      	-1.e-5  # Planet is desiccated when water content drops below this (Earth oceans)
+dJeansTime		          -12.0   # Time when flow transitions to ballistic escape (Gyr)
+bUseEnergyLimited       1       # Is the flow energy-limited?
+bUseRRLimited           0       # Is the flow radiation/recombination-limited?
+bUseBondiLimited        0       # Is the flow Bondi-limited?
+bAtmEscAuto             0       # Should atmesc decide the escape regime?
+
+saOutputOrder 	Time -Mass -EnvelopeMass -PlanetRadius
+
+# Outputs
+#saOutputOrder Time TotAngMom OrbPeriod
+
+#saOutputOrder Time CBPR CBPZ ArgP LongA Eccentricity Inc LongP DeltaTime
+

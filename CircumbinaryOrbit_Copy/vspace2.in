@@ -1,0 +1,19 @@
+sSrcFolder  .
+sDestFolder data_50_trials
+sTrialName  kepler16
+iNumTrials 50
+sSampleMode random
+
+sPrimaryFile   vpl.in
+
+sBodyFile   secondary.in
+sBodyFile   primary.in
+
+
+
+sBodyFile   cbp.in
+
+dMass [params.txt, txt, p, 2] m
+dEnvelopeMass [params.txt, txt, p, 3] e
+
+

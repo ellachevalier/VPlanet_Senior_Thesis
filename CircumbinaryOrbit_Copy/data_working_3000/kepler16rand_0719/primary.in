@@ -1,0 +1,19 @@
+# The host star: Kepler 16A
+# Parameters from Leung & Lee (2013)
+sName		primary		# Body's name
+saModules binary stellar
+
+# Physical Parameters
+iBodyType       1               # 1 -> Star
+dMass 1.3842540914743313
+dRadGyra	0.27		# Radius of gyration (moment of inertia constant)
+dRotPeriod      -1.0            # Rotation period (-1 -> days)
+
+#saOutputOrder
+# STELLAR parameters
+sStellarModel	      baraffe         # Stellar evolution model
+bHaltEndBaraffeGrid 0               # Don't end sim when we reach end of grid
+sMagBrakingModel    matt            # Magnetic braking model
+dSatXUVFrac         5.0e-4          # XUV Saturation fraction
+dSatXUVTime         -0.1            # XUV Saturation timescale, negative-> in Gyr
+dXUVBeta            1.23            # XUV decay power law exponent
