@@ -1,0 +1,229 @@
+-------- Log file system3.log -------
+
+Executable: (null)
+Version: Unknown
+System Name: system3
+Primary Input File: vpl.in
+Body File #1: star.in
+Body File #2: planet.in
+Allow files to be overwitten: Yes
+Mass Units: Grams
+Length Units: Meters
+Time Units: Seconds
+Angle Units: Radians
+
+------- FORMATTING -----
+Verbosity Level: 5
+Crossover Decade for Scientific Notation: 4
+Number of Digits After Decimal: 6
+Integration Method: Runge-Kutta4
+Direction: Forward
+Time Step: 3.155760e+07
+Stop Time: 3.155760e+16
+Output Interval: 3.155760e+12
+Use Variable Timestep: Yes
+dEta: 0.100000
+Minimum Value of ecc and obl: 1.000000e-10
+
+
+---- INITIAL SYSTEM PROPERTIES ----
+(Age) System Age [sec]: 3.155760e+13 
+(Time) Simulation Time [sec]: 0.000000 
+(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 2.840352e+43 
+(TotEnergy) Total System Energy [kg*m^2/sec^2]: -3.401234e+40 
+(PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -3.504428e+40 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 1.031966e+39 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: 0.000000 
+
+----- BODY: star ----
+Active Modules: STELLAR
+Module Bit Sum: 65
+Color: 000000
+(Mass) Mass [kg]: 1.082240e+30 
+(Radius) Radius [m]: 1.338399e+09 
+(RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.448677 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 2.838111e+43 
+(RotVel) Rotational Velocity [m/sec]: 9.733114e+04 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(RotRate) Rotational Frequency [/sec]: 7.272205e-05 
+(RotPer) Rotational Period [sec]: 8.640000e+04 
+(Density) Average Density [kg/m^3]: 107.765040 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 1.175390e+11 
+(HZLimRecVenus) Recent Venus HZ Limit [m]: 1.037139e+11 
+(HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 1.375177e+11 
+(HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 1.372303e+11 
+(HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 2.539743e+11 
+(HZLimEarlyMars) Early Mars HZ Limit [m]: 2.770105e+11 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg/sec^3]: -1.000000 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(LXUVTot) Total XUV Luminosity [kg/sec^3]: 1.440959e+23 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 5.562685e-309 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 5.562685e-309 
+----- STELLAR PARAMETERS (star)------
+(Luminosity) Luminosity [kg*m^2/sec^3]: 2.881918e+26 
+(LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 1.440959e+23 
+(Temperature) Effective Temperature [K]: 3873.256954 
+(LXUVFrac) Fraction of luminosity in XUV []: 0.000500 
+(RossbyNumber) Rossby Number []: 0.023138 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: -4.939876e-10 
+(WindTorque) Stellar Wind Torque []: 9.882093e+27 
+Output Order:
+Grid Output Order:
+
+----- BODY: planet ----
+Active Modules: AtmEsc
+Module Bit Sum: 9
+Color: 000000
+(Mass) Mass [Mearth]: 2.639052 
+(Radius) Radius [m]: 3.537644e+07 
+(RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.400000 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(Density) Average Density [kg/m^3]: 84.986571 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 1.175390e+11 
+(HZLimRecVenus) Recent Venus HZ Limit [m]: 1.037139e+11 
+(HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 1.375177e+11 
+(HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 1.372303e+11 
+(HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 2.539743e+11 
+(HZLimEarlyMars) Early Mars HZ Limit [m]: 2.770105e+11 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg/sec^3]: 2.925653e+04 
+(MeanMotion) Orbital Mean Motion [/sec]: 1.814181e-06 
+(OrbPeriod) Orbital Period [days]: 40.085344 
+(SemiMajorAxis) Semi-major Axis [AU]: 0.187154 
+(LXUVTot) Total XUV Luminosity [kg/sec^3]: -1.000000 
+----- ATMESC PARAMETERS (planet)------
+(SurfWaterMass) Surface water mass [kg]: 0.000000 
+(EnvelopeMass) Envelope mass [Mearth]: 0.130268 
+(OxygenMass) Oxygen mass in the atmosphere [kg]: 0.000000 
+(RGLimit) Runaway greenhouse semi-major axis [m]: 1.305440e+11 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.000000 
+(EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.000000 
+(PlanetRadius) Planet radius [Rearth]: 5.546549 
+(OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.000000 
+(RadXUV) XUV radius separating hydro. dyn. escape and equilibrium [m]: -1.000000 
+(RadSolid) Radius to the solid surface [m]: -1.000000 
+(PresXUV) Pressure at base of thermosphere [(null)]: 5.000000 
+(ScaleHeight) Scale height in Lehmer & Catling (2016) model [m]: -1.000000 
+(ThermTemp) Isothermal atmospheric temperature [K]: 400.000000 
+(AtmGasConst) Atmospheric gas constant [(null)]: 4124.000000 
+(PresSurf) Surface pressure due to atmosphere [Pa]: -1.000000 
+(DEnvMassDt) Envelope Mass Loss Rate [kg/s]: -2.177476e+08 
+(FXUV) XUV flux [W/m^2]: 14.628266 
+(AtmXAbsEffH2O) XUV atmospheric escape efficiency for H2O []: 0.300000 
+(RocheRadius) Roche Lobe Radius [m]: 4.740636e+08 
+(BondiRadius) Bondi Radius [m]: 7.846399e+07 
+(HEscapeRegime) Integer flag for H envelope escape regime []: 3.000000 
+(RRCriticalFlux) Critical XUV Flux that separates RR and energy-limited escape [W/m^2]: 3.891706 
+(CrossoverMass) Crossover mass, defines oxygen is escaping if mc > mo [kg]: 0.000000 
+(WaterEscapeRegime) What water escape regime the code is currently in []: 8.000000 
+(FXUVCRITDRAG) Critical Drag XUV flux [W/m^2]: 0.010872 
+(HREFFLUX) The Hydrogen Reference Flux (m^-2 s^-1) [m^-2 s^-1]: 2.501425e+19 
+(XO2) Molecular oxygen mixing ratio in atmosphere []: 0.000000 
+(XH2O) Water mixing ratio in upper atmosphere []: 0.000000 
+(HDiffFlux) The Hydrogen Diffusion Flux (m^-2 s^-1) [m^-2 s^-1]: 1.627575e+16 
+(HRefODragMod) Multiply by H ref flux to get flux with drag []: 1.000000 
+(KTide) Mass loss enhancement due to stellar gravity []: 0.888272 
+(RGDuration) Runaway Greenhouse Duration [years]: 0.00000e+00
+Output Order: [year] [Mearth] [Mearth] [Rearth] [AU] [days] [W/m^2]
+Grid Output Order:
+
+
+
+---- FINAL SYSTEM PROPERTIES ----
+(Age) System Age [sec]: 3.158916e+16 
+(Time) Simulation Time [sec]: 3.155760e+16 
+(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 2.717587e+43 
+(TotEnergy) Total System Energy [kg*m^2/sec^2]: -3.485432e+40 
+(PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -1.343529e+41 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 3.368212e+37 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: 1.577880e+12 
+
+----- BODY: star ----
+Active Modules: STELLAR
+Module Bit Sum: 65
+Color: 000000
+(Mass) Mass [kg]: 1.082240e+30 
+(Radius) Radius [m]: 3.491048e+08 
+(RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.407635 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 1.215077e+42 
+(RotVel) Rotational Velocity [m/sec]: 1.935447e+04 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(RotRate) Rotational Frequency [/sec]: 5.544030e-05 
+(RotPer) Rotational Period [sec]: 1.133325e+05 
+(Density) Average Density [kg/m^3]: 6072.501029 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.934677e+10 
+(HZLimRecVenus) Recent Venus HZ Limit [m]: 2.595100e+10 
+(HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 3.439192e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 3.433737e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 6.376915e+10 
+(HZLimEarlyMars) Early Mars HZ Limit [m]: 6.955218e+10 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg/sec^3]: -1.000000 
+(CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
+(LXUVTot) Total XUV Luminosity [kg/sec^3]: 5.282928e+20 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 9.946493e+40 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 2.593846e+43 
+----- STELLAR PARAMETERS (star)------
+(Luminosity) Luminosity [kg*m^2/sec^3]: 1.796547e+25 
+(LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 5.282928e+20 
+(Temperature) Effective Temperature [K]: 3791.150394 
+(LXUVFrac) Fraction of luminosity in XUV []: 2.940601e-05 
+(RossbyNumber) Rossby Number []: 0.029099 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: 1.089626e-11 
+(WindTorque) Stellar Wind Torque []: 1.168842e+26 
+Output Order:
+Grid Output Order:
+
+----- BODY: planet ----
+Active Modules: AtmEsc
+Module Bit Sum: 9
+Color: 000000
+(Mass) Mass [Mearth]: 2.629351 
+(Radius) Radius [m]: 1.816427e+07 
+(RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.400000 
+(BodyType) Type of Body (0 == planet) []: 0.000000 
+(Density) Average Density [kg/m^3]: 625.517094 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.934677e+10 
+(HZLimRecVenus) Recent Venus HZ Limit [m]: 2.595100e+10 
+(HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 3.439192e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 3.433737e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 6.376915e+10 
+(HZLimEarlyMars) Early Mars HZ Limit [m]: 6.955218e+10 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg/sec^3]: 1823.810960 
+(MeanMotion) Orbital Mean Motion [/sec]: 1.814181e-06 
+(OrbPeriod) Orbital Period [days]: 40.085345 
+(SemiMajorAxis) Semi-major Axis [AU]: 0.187154 
+(LXUVTot) Total XUV Luminosity [kg/sec^3]: -1.000000 
+----- ATMESC PARAMETERS (planet)------
+(SurfWaterMass) Surface water mass [kg]: 0.000000 
+(EnvelopeMass) Envelope mass [Mearth]: 0.120567 
+(OxygenMass) Oxygen mass in the atmosphere [kg]: 0.000000 
+(RGLimit) Runaway greenhouse semi-major axis [m]: 3.264490e+10 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.000000 
+(EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.000000 
+(PlanetRadius) Planet radius [Rearth]: 2.847913 
+(OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.000000 
+(RadXUV) XUV radius separating hydro. dyn. escape and equilibrium [m]: -1.000000 
+(RadSolid) Radius to the solid surface [m]: -1.000000 
+(PresXUV) Pressure at base of thermosphere [(null)]: 5.000000 
+(ScaleHeight) Scale height in Lehmer & Catling (2016) model [m]: -1.000000 
+(ThermTemp) Isothermal atmospheric temperature [K]: 400.000000 
+(AtmGasConst) Atmospheric gas constant [(null)]: 4124.000000 
+(PresSurf) Surface pressure due to atmosphere [Pa]: -1.000000 
+(DEnvMassDt) Envelope Mass Loss Rate [kg/s]: -1.022361e+05 
+(FXUV) XUV flux [W/m^2]: 0.053631 
+(AtmXAbsEffH2O) XUV atmospheric escape efficiency for H2O []: 0.300000 
+(RocheRadius) Roche Lobe Radius [m]: 4.734820e+08 
+(BondiRadius) Bondi Radius [m]: 1.563836e+08 
+(HEscapeRegime) Integer flag for H envelope escape regime []: 3.000000 
+(RRCriticalFlux) Critical XUV Flux that separates RR and energy-limited escape [W/m^2]: 32.128093 
+(CrossoverMass) Crossover mass, defines oxygen is escaping if mc > mo [kg]: 0.000000 
+(WaterEscapeRegime) What water escape regime the code is currently in []: 8.000000 
+(FXUVCRITDRAG) Critical Drag XUV flux [W/m^2]: 0.079724 
+(HREFFLUX) The Hydrogen Reference Flux (m^-2 s^-1) [m^-2 s^-1]: 4.454368e+16 
+(XO2) Molecular oxygen mixing ratio in atmosphere []: 0.000000 
+(XH2O) Water mixing ratio in upper atmosphere []: 0.000000 
+(HDiffFlux) The Hydrogen Diffusion Flux (m^-2 s^-1) [m^-2 s^-1]: 6.150830e+16 
+(HRefODragMod) Multiply by H ref flux to get flux with drag []: 1.000000 
+(KTide) Mass loss enhancement due to stellar gravity []: 0.942483 
+(RGDuration) Runaway Greenhouse Duration [years]: 0.00000e+00
+Output Order: [year] [Mearth] [Mearth] [Rearth] [AU] [days] [W/m^2]
+Grid Output Order:

@@ -1,5 +1,5 @@
 sSrcFolder  .
-sDestFolder data_working_3000_6_23
+sDestFolder data_working_2026
 sTrialName  hz
 iNumTrials 3000
 sSampleMode random
@@ -10,11 +10,11 @@ sPrimaryFile   vpl.in
 sBodyFile   star.in
 
 #dMass [1, 0.5, G, min0.1, max10.0] s
-dMass [params2.txt, txt, p, 1] s
+dMass [paramsnew.txt, txt, p, 1] s
 
 sBodyFile   planet.in
 
 #dMass [0.8, 1.15, G, min0.1] m
-dMass [params2.txt, txt, p, 3] m
-dEnvelopeMass [params2.txt, txt, p, 4] m
-dOrbPeriod [params2.txt, txt, p, 2] p
+dMass [paramsnew.txt, txt, p, 3] m
+dEnvelopeMass [paramsnew.txt, txt, p, 4] m
+dOrbPeriod [paramsnew.txt, txt, p, 2] p

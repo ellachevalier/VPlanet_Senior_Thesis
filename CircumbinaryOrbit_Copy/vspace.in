@@ -1,5 +1,5 @@
 sSrcFolder  .
-sDestFolder data_working_3000_6_23
+sDestFolder data_working_2026
 sTrialName  kepler16
 iNumTrials 3000
 iSeed 4
@@ -10,10 +10,10 @@ sPrimaryFile   vpl.in
 sBodyFile   secondary.in
 sBodyFile   primary.in
 
-dMass [params2.txt, txt, p, 1] s
+dMass [paramsnew.txt, txt, p, 1] s
 
 sBodyFile   cbp.in
 
-dOrbPeriod [params2.txt, txt, p, 2]
-dMass [params2.txt, txt, p, 3] m
-dEnvelopeMass [params2.txt, txt, p, 4] e
+dOrbPeriod [paramsnew.txt, txt, p, 2]
+dMass [paramsnew.txt, txt, p, 3] m
+dEnvelopeMass [paramsnew.txt, txt, p, 4] e
